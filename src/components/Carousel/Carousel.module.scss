@@ -1,0 +1,38 @@
+
+@use '../../styles/variables' as vars;
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+}
+
+.cards::-webkit-scrollbar {
+    background-color: vars.$bg-secondary;
+    height: 1rem;
+    
+}
+
+.card::-webkit-scrollbar-track {
+    margin-top: 2rem;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background-color: vars.$bg-main;
+    border: 2px solid vars.$bg-secondary;
+}
+
+.cardImg {
+    width: 20rem;
+    height: 15rem;
+}
+
+.cardTitle {
+    color: vars.$orange-main;
+}
+
+.cardText {
+    font-size: 1.2rem;
+}

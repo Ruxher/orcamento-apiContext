@@ -1,0 +1,12 @@
+
+@use "../../styles/variables" as vars;
+
+.searchBar {
+    background-color: vars.$bg-secondary;
+    color: vars.$text-main;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    width: 50%;
+    font-size: 1rem;
+}

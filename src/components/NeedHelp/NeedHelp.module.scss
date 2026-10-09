@@ -1,0 +1,10 @@
+
+@use "../../styles/variables" as vars;
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: vars.$orange-secondary;
+}
